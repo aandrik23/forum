@@ -1,0 +1,13 @@
+# ignore Git, editor, OS cruft
+.git
+*.swp
+*.DS_Store
+
+# ignore local data / build artifacts
+data/
+# *.db
+*.log
+/forum   # if your local folder name matches
+
+# ignore Go build cache
+/bin
